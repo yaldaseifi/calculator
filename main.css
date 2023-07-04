@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  background-color: #c9c4c9;
+  display: flex;
+}
+div.l {
+  width: 200px;
+  height: 400px;
+  box-shadow: 10px 10px 10px #5d5861;
+  background-color: #c37697;
+  border-radius: 0px 600px 600px 0px;
+  -webkit-border-radius: 0px 600px 600px 0px;
+  -moz-border-radius: 0px 600px 600px 0px;
+  -ms-border-radius: 0px 600px 600px 0px;
+  -o-border-radius: 0px 600px 600px 0px;
+}
+div.r {
+  width: 220px;
+  height: 400px;
+  margin-top: 340px;
+  box-shadow: 10px 10px 10px 15px #905083;
+  background-color: #464c55;
+  border-radius: 600px 0px 0px 600px;
+  -webkit-border-radius: 600px 0px 0px 600px;
+  -moz-border-radius: 600px 0px 0px 600px;
+  -ms-border-radius: 600px 0px 0px 600px;
+  -o-border-radius: 600px 0px 0px 600px;
+}
+div.m {
+  width: 500px;
+  height: 500px;
+  background-color: rgb(54, 54, 54);
+  margin: 0 auto;
+  margin-top: 100px;
+  border-radius: 40px 80px 40px 80px;
+  -webkit-border-radius: 40px 80px 40px 80px;
+  -moz-border-radius: 40px 80px 40px 80px;
+  -ms-border-radius: 40px 80px 40px 80px;
+  -o-border-radius: 40px 80px 40px 80px;
+  box-shadow: 10px 10px 10px 5px #6a5361;
+}
+div.m > input {
+  all: unset;
+  width: 120px;
+  height: 80px;
+  background-image: linear-gradient(
+    to bottom,
+    #ffc3d7,
+    #eea1bd,
+    #dc7ea4,
+    #c95b8d,
+    #b53476
+  );
+  margin: 30px 23px;
+  border-radius: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: rgb(255, 195, 215);
+  padding-left: 80px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+div.m > button {
+  all: unset;
+  width: 50px;
+  height: 50px;
+  background-image: radial-gradient(
+    circle,
+    #363636,
+    #5d5861,
+    #8d7b8c,
+    #c49eb4,
+    #ffc3d7
+  );
+  text-align: center;
+  border-radius: 20px;
+  font-size: 20px;
+  margin-left: 55px;
+  margin-top: 20px;
+}
+div.m > button > i {
+  color: #bc367b;
+}
+div.m > h1 {
+  text-align: center;
+  margin-top: 55px;
+  padding: 20px;
+  background-image: radial-gradient(
+    circle,
+    #ffc3d7,
+    #c49eb4,
+    #8d7b8c,
+    #5d5861,
+    #363636
+  );
+  width: 300px;
+  height: 80px;
+  margin-left: 95px;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  color: rgb(63, 61, 62);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+div.m > svg {
+  width: 60%;
+  margin-left: 300px;
+}
